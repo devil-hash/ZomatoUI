@@ -1,0 +1,547 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+#bgimage{
+    height:500px;
+    width: 100%;
+}
+.sec1 #gta{
+    position: absolute;
+    margin: 30px 0 0 170px;
+    color: white;
+    font-size: 13px;
+}
+.sec1 i{
+    position: absolute;
+    margin: 29px 0 0 150px;
+    color: white;
+}
+.sec2{
+    position: absolute;
+    margin: 30px 0 0 53%;
+}
+.sec2 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+#zomatocard{
+    position: absolute;
+    margin: 110px 0 0 40%;
+    height: 60px;
+}
+#card2{
+    position: absolute;
+    color: white;
+    font-size: 33px;
+    letter-spacing: 1px;
+    margin: 200px 0 0 460px;
+}
+.header input{
+    position: absolute;
+    padding-left: 260px;
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    margin: 270px 0 0 410px;
+    font-size: 18px;
+    color: grey;
+    letter-spacing: 1px;
+}
+.dropdown{
+    position: absolute;
+    margin:290px 0 0 590px ;
+}
+.dropdown2{
+    rotate: -90deg;
+    color:rgb(255, 0, 0) ;
+}
+#loc{
+    position: absolute;
+    height: 28px;
+    margin: 282px 0 0 420px;
+    opacity: 0.5;
+}
+.search{
+    position: absolute;
+    color: grey;
+    margin: 289px 0 0 630px;
+}
+#line{
+    position: absolute;
+    margin: 282px 0 0 610px;
+    font-size: 22px;
+    color: grey;
+}
+.outdiv{
+    display: flex;
+    flex-wrap:wrap ;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.outdiv img{
+    height: 250px;width: 590px;
+    border-radius: 10px 10px 0 0;
+}
+#div1{
+    border-radius: 10px;
+    border-style:ridge ;
+    transition: 0.5s;
+}
+#div1:hover{
+    transform: scale(1.05);
+}
+h3{
+    margin-left: 30px;
+}
+p{
+    color: grey;
+    margin-left: 30px;
+}
+#div2{
+   border-radius: 10px;
+   margin-left: 10px;
+   border-style: ridge;
+   transition: 0.5s;
+   margin-left: 20px;
+}
+#div2:hover{
+    transform: scale(1.05);
+}
+.collectionssec2{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top:1000px;
+    left: 1190px;
+}
+.collectionssec2 #link{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+.collectionsec h6{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 100;
+    margin:50px 0 0 150px;
+}
+.collectionsec #content{
+    font-size: 20px;
+    color: gray;
+    position: absolute;
+    margin:100px 0 0 150px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 150px 0 0 140px ;
+}
+.images img{
+    height: 300px;
+    width: 290px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.images #cardcontent1{
+    position: absolute;
+    top: 165%;
+    color: rgb(255, 255, 255);
+    font-weight:bolder;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.images #cardcontent2{
+    position: absolute;
+    top: 165%;
+    color: rgb(255, 255, 255);
+    font-weight:bolder;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.images #cardcontent3{
+    position: absolute;
+    top: 165%;
+    color: rgb(255, 255, 255);
+    font-weight:bolder;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.images #cardcontent4{
+    position: absolute;
+    top: 165%;
+    color: rgb(255, 255, 255);
+    font-weight:bolder;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.dropdown3{
+    position: absolute;
+    z-index: 1;
+    left: 245px;
+    top: 169%;
+    rotate: -90deg;   
+    color: white;
+}
+.dropdown4{
+    position: absolute;
+    z-index: 1;
+    left: 555px;
+    top: 169%;
+    rotate: -90deg;
+    color:rgb(255, 255, 255) ;   
+}
+.dropdown5{
+    position: absolute;
+    z-index: 1;
+    left: 850px;
+    top: 169%;
+    rotate: -90deg;
+    color:rgb(255, 255, 255) ;   
+}
+.dropdown6{
+    position: absolute;
+    z-index: 1;
+    left: 1160px;
+    top: 169%;
+    rotate: -90deg;
+    color:rgb(255, 255, 255) ;   
+}
+#loccard{
+    margin:80px 0 0 160px;
+    font-size: 40px;
+}
+.places{
+    display:flex;
+    flex-wrap: wrap;
+    margin:50px 0 0 145px;
+}
+.places p{
+    margin: 20px 0 0 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.places div{
+    border-style: ridge;
+    height: 80px;
+    width: 388px;
+    margin:10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.places div:hover{
+    box-shadow: 1px 1px 0.5px;
+}
+#box1 i{
+    position: absolute;
+    top: 203%;
+    left: 510px;
+}
+#box2 i{
+    position: absolute;
+    top: 217%;
+    left: 510px;
+}
+#box3 i{
+    position: absolute;
+    top: 230%;
+    left: 510px;
+}
+#box4 i{
+    position: absolute;
+    top: 203%;
+    left: 930px;
+}
+#box5 i{
+    position: absolute;
+    top: 217%;
+    left: 925px;
+}
+#box6 i{
+    position: absolute;
+    top: 217%;
+    left: 88%;
+}
+#box7 i{
+    position: absolute;
+    top: 230%;
+    left: 61%;
+}
+#box8 i{
+    position: absolute;
+    top: 203%;
+    left: 88%;
+}
+#box9 i{
+    position: absolute;
+    top: 231%;
+    left: 80%;
+    rotate: 90deg;
+}
+#box9 p{
+    margin: 32px 0 0 130px;
+}
+.places b{
+    font-weight: lighter;
+}
+.places a{
+    text-decoration: none;
+    border-style: none;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 153, 153, 0.126);
+    height: 500px;
+    margin-top: 100px;
+}
+#card{
+    position: absolute;
+    letter-spacing: 1px;
+    font-size: 45px;
+    font-weight: lighter;
+    margin: 80px 0 0 700px;
+}
+.container #d1{
+    position: absolute;
+    margin: 150px 0 0 710px;
+    font-size: 20px;
+}
+.choosebtn{
+    position: absolute;
+    top: 291%;
+    left: 700px;
+}
+.choosebtn [type="radio"] {
+    transform: scale(2); 
+    margin: 10px;
+    padding-left: 50px;
+}
+.ip{
+    position: absolute;
+    top: 282%;
+    left: 700px;
+}
+.ip input{
+    height: 50px;
+    width:350px;
+    border-radius: 7px;
+    border-style:none ;
+    padding-left: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.ip button{
+    height: 50px;
+    width:150px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background-color: rgb(255, 70, 70);
+    font-size: 15px;
+}
+.buttons img{
+    height: 50px;
+}
+.buttons a{
+    padding-left: 20px;
+}
+#card1{
+    position: absolute;
+    margin:380px 0 0 700px;
+}
+.buttons{
+    position: absolute;
+    margin:420px 0 0 45%;
+}
+#phoneimg{
+    position: absolute;
+    height: 270px;
+    margin: 150px 0 0 400px;
+}
+#expocard{
+    position: absolute;
+    top: 310%;
+    left: 200px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.expodetails{
+    position: absolute;
+    top: 330%;
+    left: 200px;
+}
+.expodetails section  details{
+    position: relative;
+    padding: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+    border-radius: 4px;
+    width: 1150px;
+    margin-top: 20px;
+    background-color: white;
+}
+.expodetails section  details summary{
+    font-size: 20px;
+    list-style: none;
+}
+.expodetails section  details summary i{
+    transform: rotate(90deg);
+}
+.expodetails section  details summary .arrow1{
+    margin-left: 900px;
+}
+.expodetails section  details summary .arrow2{
+    margin-left: 827px;
+}
+.expodetails section  details summary .arrow3{
+    margin-left: 920px;
+}
+.expodetails section  details summary .arrow4{
+    margin-left: 942px;
+}
+.expodetails section  details #expolink1{
+   font-size: 18px; 
+   line-height: 25px;
+   text-decoration: none;
+}
+.expodetails section  details #expolink2{
+    font-size: 18px; 
+    line-height: 25px;
+    text-decoration: none;
+}
+.expodetails section  details .hotels{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.expodetails section  details .hotels a{
+    text-decoration: none;
+    color:grey;
+}
+.expodetails section  details .lists{
+    display: flex;
+}
+.expodetails section  details .lists div{
+    margin-left:40px ;
+}
+.expodetails section  details .lists div a{
+    text-decoration: none;   
+}
+.expodetails section  details .lists div li{
+    z-index: 1;
+    font-size: 17px;  
+    list-style: none; 
+    color:grey;
+    margin-top: 15px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+.aboutsec{
+    display: flex;
+    margin-top: 590px;
+    width: 100%;
+    height: 490px;
+    background-color:rgba(0, 0, 0, 0.041) ;
+}
+.aboutsec .zomatoimage2 .images{
+    height: 30px;
+    margin: 50px 0 0 200px;
+}
+.aboutsec .dropdownopt{
+   position: absolute;
+   top: 398%;
+   left: 1000px;
+}
+.aboutsec .dropdownopt select{
+    padding-left: 45px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid rgba(128, 128, 128, 0.765);
+    font-size: 17px;
+}
+.aboutsec .zomatoimage2 #flag{
+    position: absolute;
+    top: 392.5%;
+    left: 810px;
+    z-index: 1;
+    height: 20px;
+}
+.globe{
+    position: absolute;
+    top: 390.5%;   
+    left: 340px;
+}
+.aboutsec  i{
+    margin-left: 780px;
+    z-index: 1;
+    margin-top: 67px;
+    font-size: 20px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 95px;
+    margin-top: 30px;
+}
+.footer1 div{
+    padding-left:70px ;
+}
+.footer1 li{
+    list-style: none;
+    padding-top: 15px;
+    color: grey;
+}
+.footer1 a{
+    text-decoration: none;
+}
+.footer1 img{
+    height: 25px;
+}
+.footer1 .soclinks .icons{
+   position: absolute;
+   left: 72.8%;
+}
+.footer1 #headcard{
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.footer1 .soclinks .footerimages{
+    position: absolute;
+    top: 150%;
+    right: 5px;
+}
+.footer1 .soclinks .footerimages img{
+    height: 40px;
+    margin-top: 10px;
+}
+hr{
+    position: absolute;
+    top: 443%;
+    left: 190px;
+    width: 75%;
+}
+#footercard2{
+    font-size: 13px;
+    position: absolute;
+    top: 445%;
+    left: 175px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
